@@ -13,10 +13,10 @@ public class Canvas extends JPanel{
     public void paint(Graphics pen){
         super.paint(pen);
 
-        pen.setColor(Color.black);
-        pen.drawString("reload button",model.x,model.y);
+        //pen.setColor(Color.black);
+        //pen.drawString("reload button",model.x,model.y);
 
         pen.setColor(Color.BLUE);
-        pen.drawRect(model.x1, model.y1, 50,50);
+        pen.drawRect(model.x1, model.y1, 100,100);
     }
 }

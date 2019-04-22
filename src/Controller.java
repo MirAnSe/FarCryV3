@@ -27,38 +27,33 @@ public class Controller implements KeyListener {
             break;
 
             case 87:
-                //System.out.println("Up");
                 direction = "Up";
-                break;
+            break;
 
             case 39:
-                //System.out.println("Right");
                 direction = "Right";
-                break;
+            break;
+
             case 68:
-                //System.out.println("Right");
                 direction = "Right";
-                break;
+            break;
 
             case 40:
-                //System.out.println("Down");
                 direction = "Down";
-                break;
+            break;
 
             case 83:
-                //System.out.println("Down");
-                direction = "Down";
-                break;
 
-                case 37:
-                //System.out.println("Left");
-                    direction = "Left";
-                break;
+                direction = "Down";
+            break;
+
+            case 37:
+                direction = "Left";
+            break;
 
             case 65:
-                //System.out.println("Left");
                 direction = "Left";
-                break;
+            break;
         }
         model.move(direction);
     }
